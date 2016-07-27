@@ -15,7 +15,7 @@
 
 /* Grid system */
 
-.container {
+.contenedor {
 	width: 960px;
 	padding-left: 14px; 
 	padding-right: 14px;
@@ -23,12 +23,8 @@
 }
 
 .row {
-	width: 70%;
-	margin-left: 107px;
+	margin-left: -14px;
 	margin-right: -14px;
-}
-.episodios{
-	margin-left: 130px;
 }
 
 .row:before, .row:after{
@@ -53,8 +49,6 @@
 .col-2 {
 	/* (2 / 12) x 100 */
 	width: 16.666667%;
-	height: 130px;
-
 } 
 
 .col-3 {
@@ -103,21 +97,6 @@
 }
 
 .col-12 {
-	/* (12 / 12) x 	100 */
+	/* (12 / 12) x 100 */
 	width: 100%;
-}
-.colum9{
-	position: absolute;
-}
-.colum3{
-	margin-left: 712px;
-	float: left;
-	position: absolute;
-
-}
-.nombre{
-	text-decoration: none;
-	color: #0080BB;
-	font-size: 12px;
-	text-align: right;
 }

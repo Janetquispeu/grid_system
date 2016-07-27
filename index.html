@@ -2,285 +2,203 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
-	<title>Clearfix</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/grid-system.css">
+	<link rel="icon" href="favicon.ico">
 </head>
+
 <body>
+	<!-- Cabecera -->
 	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-2">
-					<img class="logotipo" src="img/logo.png">
-				</div>
-				<div class="col-10">	
-					<nav class="menu">
-						<ul>
-							<li><a href="#">LIVE</a></li>
-							<li><a href="#">SHOWS</a></li>
-							<li><a href="#">SUBSCRIBE</a></li>
-							<li><a href="#">SCHEDULE</a></li>
-							<li><a href="#">SUPPORT 5BY5</a></li>
-							<li><a href="#">ADVERTISE</a></li>
-							<li><a href="#">CONTACT</a></li>
-						</ul>
-					</nav>
-				</div>
+	<div class="contenedor">
+		<div class="row">
+			<div class="col-2">
+				<img class="logotipo" src="img/logo.png" >
+			</div>
+			<div class="col-10">
+				<nav class="menu">
+					<ul>
+						<li><a href="#">LIVE</a></li>
+						<li><a href="#">SHOWS</a></li>
+						<li><a href="#">SUBSCRIBE</a></li>
+						<li><a href="#">SCHEDULE</a></li>
+						<li><a href="#">SUPPORT 5BY5</a></li>
+						<li><a href="#">ADVERTISE</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</nav>
 			</div>
 		</div>
+	</div>
 	</header>
-	<section class="ultimosEpisodios">
-		<div class="container">
-			<div class="row">
-				<h2 class="latest">Latest episodes</h2>
-				<a class ="episodes" href="#">More Episodes --></a>
-				<div class="col-3 peli">
-				 	<img class="imagen" src="img/dlc.jpg">
-				 	<a class ="textoEpisodes" href="#">
-					<span>DLC83</span></a>
-				</div>
-				<div class="col-3 peli">
-				 	<img class="imagen" src="img/almanac.jpg">
-				 	<a class ="textoEpisodes" href="#">
-					<span>Ihnatko Almanac 149</span></a>
-				</div>
-				<div class="col-3 peli">
-				 	<img class="imagen" src="img/onthegrid.jpg">
-				 	<a class ="textoEpisodes" href="#">
-					<span>On the grid 124</span></a>
-				 </div>
-				<div class="col-3 peli">
-				 	<img class="imagen" src="img/changelog.jpg">
-				 	<a class ="textoEpisodes" href="#">
-					<span>Changelog 165</span></a>
-				 </div>
+	<section class="sectionEpisodios">
+	<div class="contenedor">
+		<div class="row">
+			<div class="col-6">
+				<h3 class="latest">Latest episodes </h3><a href="#" class="episodes">More episodes →</a>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-3">
+				<a href="#" class="textoepisodes"><img src="img/dlc.jpg" class="imagensuperior"><h4>DLC 83</h4></a>
+			</div>
+			<div class="col-3">
+				<a href="#" class="textoepisodes"><img src="img/almanac.jpg" class="imagensuperior"><h4>Ihnatko Almanac 149</h4></a>
+			</div>
+			<div class="col-3">
+				<a href="#" class="textoepisodes"><img src="img/onthegrid.jpg" class="imagensuperior"><h4>On the grid 124</h4></a>
+			</div>
+			<div class="col-3">
+				<a href="#" class="textoepisodes"><img src="img/changelog.jpg" class="imagensuperior"><h4>Changelog 165</h4></a>
+			</div>
+		</div>
+	</div>
 	</section>
-	<section class="episodes">
-		<div class="container_row">
-			<div class="row episodios">
-				<div class="col-9 colum9">
-					<div class="row episodios">
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/amplified.jpg">
-							<a class="nombre" href="#">Amplified</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/back-to-work.jpg">
-							<a class="nombre" href="#">Back to work</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/the-big-show.jpg">
-							<a class="nombre" href="#">The big show</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/better-know.jpg">
-							<a class="nombre" href="#">Better know</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/cash-corner.jpg">
-							<a class="nombre" href="#">Cash corner</a>
-						</div>
+	<!-- Seccion intermedia con iconos pequeños -->
+	<section class="secciondos">
+	<div class="contenedor">
+		<div class="row">
+			<div class="col-9">
+				<div class="row">
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/amplified.jpg"></a><a href="#"><h5>Amplified</h5></a></div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/back-to-work.jpg"></a><a href="#"><h5>Back to Work</h5></a>
 					</div>
-					<div class="row episodios">
-						<div class="col-2">
-							<img class="imagenes" src="img/changelog.jpg">
-							<a class="nombre" href="">Changelog</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/critical-path.jpg">
-							<a class="nombre" href="">Critical Path</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/dan.jpg">
-							<a  class="nombre" href="">Dan Benjamin Hour</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/dlc.jpg">
-							<a class="nombre" href="">DLC</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/frequency.jpg">
-							<a class="nombre" href="">Frequency</a>
-						</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/the-big-show.jpg"></a><a href="#"><h5>The Big Show</h5></a>
 					</div>
-					<div class="row episodios">
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/home-work.jpg">
-							<a class="nombre" href="#">Home Work</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/ihnatko.jpg">
-							<a class="nombre" href="#">Ihnatko almanac</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/ohyes.jpg">
-							<a class="nombre" href="#">iOhYes</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/getting-there.jpg">
-							<a class="nombre" href="#">Getting There</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/movies.jpg">
-							<a class="nombre" href="#">5by5 at the Movies</a>
-						</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/better-know.jpg"></a><a href="#"><h5>Better Know</h5></a>
 					</div>
-					<div class="row episodios">
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/mac-power.jpg">
-							<a class="nombre" href="#">Mac Power Users</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/on-the-grid.jpg">
-							<a class="nombre" href="#">On the Grid</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/on-taking-pictures.jpg">
-							<a class="nombre" href="#">On Taking Pictures</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/latest-paleo.jpg">
-							<a class="nombre" href="#">Latest in Paleo</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/pipeline.jpg">
-							<a class="nombre" href="#">Pipeline</a>
-						</div>
-					</div>
-					<div class="row episodios">
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/pipeline-classic.jpg">
-							<a class="nombre" href="#">Pipeline Classic</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/podcast-method.jpg">
-							<a class="nombre" href="#">Podcast Method</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/quit.jpg">
-							<a class="nombre" href="#">Quit</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/ruby-on-rails-podcast.jpg">
-							<a class="nombre" href="#">Ruby on Rails Podcast</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/specials.jpg">
-							<a class="nombre" href="#">5by5 Specials</a>
-						</div>
-					</div>
-					<div class="row episodios">
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/steady.jpg" alt="steady">
-							<a class="nombre" href="#">Steady</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/supercharged.jpg" alt="supercharged">
-							<a class="nombre" href="#">Supercharged</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/web-ahead.jpg" alt="web-ahead">
-							<a class="nombre" href="#">Web Ahead</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/write-for-life.jpg" alt="write-for-your-life">
-							<a class="nombre" href="#">Write For Your Life</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/after-dark.jpg" alt="after-dark">
-							<a class="nombre" href="#">After Dark</a>
-						</div>
-					</div>
-					<div class="row episodios">
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/human-survival.jpg" alt="ankward-human-survival-guide">
-							<a class="nombre" href="#">Ankward Human Survival Guide</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/morning-dump.jpg" alt="morning-dump">
-							<a class="nombre" href="#">Morning Dump</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/hablo-geek.jpg" alt="hablo-geek">
-							<a class="nombre" href="#">Hablo Geek</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/puromac.jpg" alt="puromac">
-							<a class="nombre" href="#">Puromac</a>
-						</div>
-						<div class="col-2">
-							<img class="imagenes" src="img/thumbs/tech-douchebags.jpg" alt="tech-douchebags">
-							<a class="nombre" href="#">Tech Douchebags</a>
-						</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/cash-corner.jpg"></a><a href="#"><h5>Cash Corder</h5></a>
 					</div>
 				</div>
-				<div class="col-3 colum3">
-					<div class="lista">
-						<h3>Suscribe to 5by5</h3>
-						<div class="cuadrado">
+				<div class="row">
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/changelog.jpg"><h5>Changelog</h5></a>
 						</div>
-						<ul>
-							<li>
-								<img class="icono" src="img/icons/itunes.png" width="15px" height="15px">5by5 on iTunes
-							</li>
-							<li>
-								<img class="icono" src="img/icons/rss.png" width="15px" height="15px">Master RSS Feed
-							</li>
-							<li>
-								<img class="icono" src="img/icons/podcast.png" width="15px" height="15px">Pocket Casts
-							</li>
-						</ul>	
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/critical-path.jpg"><h5>Critical Path</h5></a>
 					</div>
-					<h3>5by5 Apps</h3>
-					<div class="cuadrado">
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/dan.jpg"><h5>Dan Benjamin Hour</h5></a>
 					</div>
-					<div class="lista2">
-						<ul>
-							<li>
-								<img class="icono" src="img/icons/radio.png" width="15px" height="15px">5by5 Radio for iOS
-							</li>
-							<li>
-								<img class="icono" src="img/icons/pencil.png" width="15px" height="15px">5by5 for Mac OS X
-							</li>
-						</ul>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/dlc.jpg"><h5>DLC</h5></a>
 					</div>
-					<div class="cuadrado">
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/frequency.jpg"><h5>Frequency</h5></a>
 					</div>
-					<div>
-						<p>Bandwith for July 2015 is sponsored by <span class="span_1">CacheFly: The fastest, most eliable CDN in the business </span></p>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/home-work.jpg"><h5>Home Work</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/ihnatko.jpg"><h5>Ihnatko Almanac</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/ohyes.jpg"><h5>¡OhYes</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/getting-there.jpg"><h5>Getting There</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/movies.jpg"><h5>5by5 at the Movies</h5></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/mac-power.jpg"><h5>Mac Power User</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/on-the-grid.jpg"><h5>On The Grid</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/on-taking-pictures.jpg"><h5>On Taking Pictures</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/latest-paleo.jpg"><h5>Latest in Paleo</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/pipeline.jpg"><h5>Pipeline</h5></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/pipeline-classic.jpg"><h5>Pipeline Classic</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/podcast-method.jpg"><h5>Podcast Method</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/quit.jpg"><h5>Quit</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/ruby-on-rails-podcast.jpg"><h5>Ruby on Rails Podcast</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/specials.jpg"><h5>5by5 Specials</h5></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/steady.jpg"><h5>Steady</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/supercharged.jpg"><h5>Supercharged</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/web-ahead.jpg"><h5>Web Ahead</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/write-for-life.jpg"><h5>Write for Life</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/after-dark.jpg"><h5>After Dark</h5></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/human-survival.jpg"><h5>Ankward Human Survival Guide</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/morning-dump.jpg"><h5>Morning Dump</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/hablo-geek.jpg"><h5>Hablo Geek</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/puromac.jpg"><h5>Puromac</h5></a>
+					</div>
+					<div class="col-2">
+						<a href="#"><img class="imagenespequeñas" src="img/thumbs/tech-douchebags.jpg"><h5>Tech Douchebags</h5></a>
 					</div>
 				</div>
 			</div>
+			<section>
+				
+			</section>
+			<div class="col-3">
+				<h3>Suscribe to 5by5</h3>
+					<div class="containerSidebar">
+						<a class="linkSidebar" href="#"><img class="icon" src="img/icons/itunes.png">5by5 in iTunes</a>
+						<a class="linkSidebar" href="#"><img class="icon" src="img/icons/rss.png">Master RSS Feed</a>
+						<a class="linkSidebar" href="#"><img class="icon" src="img/icons/podcast.png">Pocket Casts</a>
+					</div>
+				<h3>5by5 Apps</h3>
+					<div class="containerSidebar">
+						<a class="linkSidebar" href="#"><img class="icon" src="img/icons/radio.png">5by5 Radio for iOS</a>
+						<a class="linkSidebar" href="#"><img class="icon" src="img/icons/pencil.png">5by5 for Mac OS X</a>
+					</div>
+				<div class="containerSidebar2">
+					Bandwith for July 2015 is sponsored by <a href="#">CacheFly: The fastest, most reliable CDN in the business</a>
+				</div>
+			</div>
 		</div>
+	</div>	
 	</section>
-	<footer>
-        <div class="row">
-             <div class="col-12">
-                 <p>5by5 is a podcast network for geeks, designers, developers, gamers, entrepreneurs, and people like you, with shows hosted by people people including Dan Benjamin, Merlin Mann, Horace Dediu, and Jeffrey Zeldman. Read more...</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="col-1"></div>
-                <div class="col-1"></div>
-                <div class="col-1"><a href="#">About</a></div>
-                <div class="col-1"><a href="#">Shows</a></div>
-                <div class="col-1"><a href="">Suscribe</a></div>
-                <div class="col-1"><a href="">iTunes</a></div>
-                <div class="col-1"><a href="">Schedule</a></div>
-                <div class="col-1"><a href="">Contact</a></div>
-                <div class="col-1"><a href="">Donate</a></div>
-                <div class="col-1"><a href="">Advertise</a></div>
-                <div class="col-1"><a href="">Newsletter</a></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="copyright">
-                <p>Copyright © 2009-2015 by Dan Benjamin and 5by Productions LLC in Austin, Texas</p>
-            </div>
-        </div>    
-    </footer>	
 </body>
 </html>
