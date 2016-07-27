@@ -118,7 +118,7 @@ nav a:hover {
 }
 
 footer{
-    background-color: #848484 ;
+    background-color: #2E2E2E ;
     max-width: 100%;
     height: 100%px;
 }
@@ -128,9 +128,10 @@ footer a{
 footer p{
    color: #FFFFFF ;
    margin:40px 60px;
+   font-size: 15px;
 }
 .copyright p{
-   font-size: 16px;
+   font-size: 13px;
    color:#D8D8D8  ;
    margin:40px 220px;
    text-align: center;
