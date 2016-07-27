@@ -79,6 +79,26 @@ header nav{
 .peli{
 	margin-top: 60px;
 }
+ footer{
+ 	background-color: #848484;
+    max-width: 100%;
+
+}
+footer div div div a{
+    color:#D8DBDA ;
+}
+footer div div p{
+    color: #FFFFFF;
+    margin:40px 60px;
+}
+.copyright p{
+	font-size: 16px;
+    color:#D8D8D8 ;
+    margin:40px 220px;
+    text-align: center;
+}
+a:hover{
+	color:red;
 
 /* Estilos para Section*/
 .nombre{
