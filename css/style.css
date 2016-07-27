@@ -1,0 +1,141 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+/* Estilos para el Header*/
+header{
+	background-color: #333333;
+	width: 100%;
+	padding: 13px;
+	padding-top: 11px;
+	height: 100px;
+}
+footer {
+	background-color: #333333;
+	width: 100%;
+	padding: 13px;
+
+}
+header nav{
+	overflow: hidden;
+}
+.logotipo {
+	height:67px;
+	width: 62px;	
+}
+.menu ul{
+	list-style: none;
+	font-size: 15px;
+	padding-top: 30px;
+	float:right;
+	width: 472px;
+
+}
+.menu ul li{
+	float: left;
+	position: relative;
+	padding-left: 20px;
+	font-size: 9px;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	color:white;
+	display: block;
+}
+.menu a:hover{
+	color:red;
+}
+
+.ultimosEpisodios{
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #E5E5E5;
+	height: 300px;	
+
+}
+.latest{
+	margin-right: 10px;
+	margin-left: -600px;
+	padding-top: 15px;
+	display: inline-block;
+}
+.episodes {
+	color: #3F3FFF;
+	text-decoration: none;
+	font-weight: bold;
+	padding-top: 15px;
+	font-size: 13px;
+	font-family: Arial Black;
+
+}
+.textoEpisodes{
+	text-decoration: none;
+}
+.imagen{
+	width: 200px;
+	height: 200px;
+}
+.peli{
+	margin-top: 60px;
+}
+
+/* Estilos para Section*/
+.nombre{
+	text-decoration: none;
+	color: #0080BB;
+	font-size: 12px;
+	text-align: right;
+}
+h3{
+	color: #2E2E2E;
+
+}
+li{
+	list-style: none;
+	color: #0080BB;
+	margin-bottom: 5px;
+}
+ul{
+	width: 170px;
+}
+p{
+	text-align: left;
+}
+.imagenes{
+	padding: 3px;
+	background-color: white;
+	border: 1px solid gray;
+}
+.cuadrado{
+	width: 200px;
+	height: 3px;
+	background-color: #BDBDBD;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+.icono{
+	margin-right: 14px;
+	margin-left: 4px;
+}
+.lista{
+	margin-bottom: 23px;
+	margin-top: 15px;
+}
+.lista2{
+	margin-bottom: 30px;
+}
+.span_1{
+	color: #0080BB;
+}
+
+.episodes{
+	padding: 50px 0;
+}
+.imagenes {
+	max-width: 100%;
+}
+.container_row {
+	width: 100%;
+}
