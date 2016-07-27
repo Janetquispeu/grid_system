@@ -24,12 +24,14 @@ nav a {
 	padding: 10px 15px;
 	color: #eee;
 	text-shadow: 2px 2px 4px #000;
+	font-size: 13px;
 }
 
 nav ul {
 	text-decoration: none;
 	list-style-type: none;
-	padding-top: 30px;
+	padding-top: 45px;
+	padding-right: 66px;
 	margin: 0 -15px 0 0;
 	float: right;
 	font-size: 14px;
@@ -48,7 +50,7 @@ nav li:hover a {
 
 
 nav a:hover {
-	color: #fff;
+	color: blue;
 }
 
 .logotipo {
@@ -137,4 +139,4 @@ footer p{
    text-align: center;
 }
 a:hover{
-    color:red;
+    color:blue;
