@@ -116,3 +116,24 @@ nav a:hover {
 .col-3 h3 {
 	border-bottom: 1px solid #BDBDBD;
 }
+
+footer{
+    background-color: #848484 ;
+    max-width: 100%;
+    height: 100%px;
+}
+footer a{
+   color:#D8DBDA  ;
+}
+footer p{
+   color: #FFFFFF ;
+   margin:40px 60px;
+}
+.copyright p{
+   font-size: 16px;
+   color:#D8D8D8  ;
+   margin:40px 220px;
+   text-align: center;
+}
+a:hover{
+    color:red;
