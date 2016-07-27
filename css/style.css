@@ -7,7 +7,7 @@ header, footer {
 	margin: 0;
 	color: white;
 	border-bottom: solid gray 1px;
-	background: gray;
+	background: #000000;
 }
 div a {
 	color: #0080BB;
